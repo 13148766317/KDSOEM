@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AD581E0E-6AD3-4FA2-8680-05D02CFB41A1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52F475D5-A007-407F-9C88-B2295D493B73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSMine/New Group/SystemSetting/KDSSystemSettingVC.m"
+            timestampString = "584436108.603637"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-checkAppStoreVersion"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26AA1C47-4622-4DE2-B636-060B94106647"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Http/Model/KDSUserAgreement.m"
+            timestampString = "585472775.59553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-encodeWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA363B8F-1FCB-44A0-9D51-F07B711E11B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Http/KDSHttpManager+User.m"
+            timestampString = "585472867.604696"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "-getUserAgreementVersion:error:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB7C7F32-B269-48B6-B34A-957114FF16AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Http/KDSHttpManager+User.m"
+            timestampString = "585472958.862023"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "-getUserAgreementVersion:error:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB7C7F32-B269-48B6-B34A-957114FF16AD - a0ebc40328a19ef2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KDSHttpManager(User) getUserAgreementVersion:error:failure:]"
+                  moduleName = "KaadasLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wzr/Documents/Kaadas-19%E7%89%88%E6%9C%AC/19-KaadasLock/KaadasLock/KDSClasses/KDSTools/Http/KDSHttpManager+User.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "DB7C7F32-B269-48B6-B34A-957114FF16AD - e032e189e4aa2c66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[KDSHttpManager(User) getUserAgreementVersion:error:failure:]_block_invoke"
+                  moduleName = "KaadasLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wzr/Documents/Kaadas-19%E7%89%88%E6%9C%AC/19-KaadasLock/KaadasLock/KDSClasses/KDSTools/Http/KDSHttpManager+User.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F70C013-DB06-4899-ABEE-CF2471396CDF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Http/Model/KDSAuthCatEyeMember.m"
+            timestampString = "585473105.572279"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-encodeWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "641E033C-0EB6-46EA-A3D2-D520A697E24F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Linphone/NewImpl/KDSLinphoneManager.m"
+            timestampString = "586255515.103601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "+sharedManager"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF579997-61B6-4642-8DB1-B5239E33A5E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Linphone/NewImpl/KDSLinphoneManager.m"
+            timestampString = "586255515.1041991"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BFA79C5-1C26-4556-9286-D4BFEE5A9EE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSDevice/KDSDFUVC.m"
+            timestampString = "587442968.3853641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E091F6F4-3F96-4C0A-AC35-3A7840ED4A2C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSDevice/BLELock/Search&amp;Bind/KDSBleBindVC.m"
+            timestampString = "587986605.256922"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-navBackClick"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2871C1F3-587E-4B4A-932E-7314D942ED61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSDevice/ZigBeeLock/Controll/KDSGWLockVC.m"
+            timestampString = "588147719.632689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "487"
+            endingLineNumber = "487"
+            landmarkName = "-tapMoreSubfuncViewAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91345935-E9AA-4D49-8CB1-8D7248E5A044"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Ble/KDSBleTunnelTask.m"
+            timestampString = "588591392.547848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-setTimeout:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1ED76599-E34C-4806-8606-41C07E58A662"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSTools/Http/Model/KDSAuthCatEyeMember.m"
+            timestampString = "590320979.558022"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-initWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "237162C4-3EDC-4804-A1E6-19727C69B7B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSHome/Controller/KDSLockInFoVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "392"
+            endingLineNumber = "392"
+            landmarkName = "-checkUnlockAuthThenDealWithResult"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "237162C4-3EDC-4804-A1E6-19727C69B7B6 - 47a7d90377a4a143"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__50-[KDSLockInFoVC checkUnlockAuthThenDealWithResult]_block_invoke"
+                  moduleName = "KaadasLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wzr/Documents/Kaadas-19%E7%89%88%E6%9C%AC/19-KaadasLock/KaadasLock/KDSClasses/KDSItems/KDSHome/Controller/KDSLockInFoVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "393"
+                  endingLineNumber = "393"
+                  offsetFromSymbolStart = "9696">
+               </Location>
+               <Location
+                  uuid = "237162C4-3EDC-4804-A1E6-19727C69B7B6 - 1c9d6c919eb75c50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__50-[KDSLockInFoVC checkUnlockAuthThenDealWithResult]_block_invoke_2"
+                  moduleName = "KaadasLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wzr/Documents/Kaadas-19%E7%89%88%E6%9C%AC/19-KaadasLock/KaadasLock/KDSClasses/KDSItems/KDSHome/Controller/KDSLockInFoVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "394"
+                  endingLineNumber = "394"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33CEA6C2-2551-4C8F-A0E0-141B8202D2C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSHome/Controller/KDSLockInFoVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "354"
+            endingLineNumber = "354"
+            landmarkName = "-checkUnlockAuthThenDealWithResult"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20EE68B2-842A-4F9D-BF7B-257502AA066F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSHome/Controller/KDSGWLockInfoVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "546"
+            endingLineNumber = "546"
+            landmarkName = "-longPressImageViewUnlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C9AFCF0-8C6B-4281-9C1C-D05534ADD539"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSHome/Controller/KDSGWLockInfoVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "579"
+            endingLineNumber = "579"
+            landmarkName = "-longPressImageViewUnlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "652DD7A9-1F68-4ED4-9849-325016347C2C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSDevice/WifiLock/addNewWiFiLock/KDSDeviceConnectionStep1VC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AAF53C5-50DE-4B05-8656-22BB670D07A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSDevice/WifiLock/addNewWiFiLock/KDSDeviceConnectionStep1VC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C14C9281-5210-42A8-B737-EB02B0E1B9AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSDevice/WifiLock/addNewWiFiLock/KDSDeviceConnectionStep1VC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D585452-D7A2-495C-89BE-B5D29A227F57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KaadasLock/KDSClasses/KDSItems/KDSDevice/WifiLock/addNewWiFiLock/KDSDeviceConnectionStep1VC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

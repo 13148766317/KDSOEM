@@ -1,0 +1,126 @@
+//
+//  PrefixHeader.pch
+//  KaadasLock
+//
+//  Created by wzr on 2019/1/15.
+//  Copyright © 2019 com.Kaadas. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#pragma mark - 常用的宏定义头文件
+#import "KDSCommon.h"
+#import "Masonry.h"
+#import "KDSLockOptions.h"
+#import "MBProgressHUD+MJ.h"
+#import "MJRefresh.h"
+#import "SafeObject.h"
+
+//应用内切换语言
+#define Localized(key)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:AppLanguage]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Localizable"] ?: [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"en" ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Localizable"]
+
+#pragma mark - log开关
+
+#ifdef  DEBUG
+#define KDSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#else
+
+#define KDSLog(...)
+#endif
+
+#pragma mark - 版本判断
+#define IOS11_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0)
+#define IOS10_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0)
+#define IOS9_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+#define IOS8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IOS7_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+
+
+///状态栏高度
+#define kStatusBarHeight [UIApplication sharedApplication].statusBarFrame.size.height
+///导航栏高度
+#define kNavBarHeight 44.0
+///屏幕宽(竖屏)
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+///屏幕高(竖屏)
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define KDSRGBColor(r, g, b)        [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+#define isFullScreeniPhone                   [[KDSTool getIphoneType] containsString:@"iPhone X"]
+
+#define KDSWeakSelf(type)           __weak typeof(type) weak##type = type;
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/*ShareSDK相关*/
+#define shareSDKAppKey                @"1df32e19ef29c"
+/*新浪*/
+#define shareSDKXLAppID               @"300712132"
+#define shareSDKXLAppSecret           @"77b4dbb4b2b1ce86a87b7d6ba8d32ac4"
+/*微信*/
+//#define shareSDKWXAppID               @"wx37f575e4afb5ec50"
+//#define shareSDKWXAppSecret           @"3e330f3497bd6384e5cf0d0413edcd6c"
+#define shareSDKWXAppID               @"wxaa2df1f344ba0755"
+/*腾讯开放平台URL schema：QQ41EB4B69*/
+#define shareSDKQQAppID              @"1105939305"
+#define shareSDKQQAppKEY             @"3Wg3Fq1icIV7IwKd"
+
+#import "KDSTool.h"
+#import "KDSUserManager.h"
+#import "KDSNetWorkURLPort.h"
+
+/*-------中软云------*/
+//三方库
+#import <HexColors/HexColors.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+//#import <MBProgressHUD.h>
+#import <TZImagePickerController/TZImagePickerController.h>
+#import <MJExtension/MJExtension.h>
+//#import <MJRefresh/MJRefresh.h>
+#import <UIImageView+WebCache.h>
+#import <SDImageCache.h>
+//#import <SDWebImageDownloader.h>
+#import <YBImageBrowser/YBImageBrowser.h>
+#import <YBIBWebImageManager.h>
+#import <DateTools.h>
+#import <WXApi.h>
+//#import <AlipaySDK/AlipaySDK.h>
+//#import "AFNetworking.h"
+#import "AFNetworking-umbrella.h"
+
+//
+#define KViewBackGroundColor [UIColor hx_colorWithHexRGBAString:@"#f7f7f7"] //屏幕背景色
+#define KseparatorColor [UIColor hx_colorWithHexRGBAString:@"#e6e6e6"] //分割线颜色
+#define userDefaults    [NSUserDefaults standardUserDefaults]
+#define ACCESSTOKEN     [[NSUserDefaults standardUserDefaults] valueForKey:@"USER_TOKEN"]
+
+//
+#define  textFieldWidth 65
+//
+//*******************************************************//
+//
+//宏
+//是否为iPhone X , iPhone XR , iPhone XS , iPhone XS MAX
+#define isIPHONE_X      (([UIScreen mainScreen].bounds.size.height == 812.0) || ([UIScreen mainScreen].bounds.size.height == 896.0f))
+//5s以下版本（包括5s）
+#define isIphone5sBelow  [UIScreen mainScreen].bounds.size.width <= 320
+//
+//屏幕宽高
+#define KSCREENWIDTH    [[UIScreen mainScreen] bounds].size.width
+#define KSCREENHEIGHT   [[UIScreen mainScreen] bounds].size.height
+#define KwidthSacle      1//KSCREENWIDTH/375
+//#define KheightSacle     1//KSCREENHEIGHT/667
+//
+#define MtabBarH   (isIPHONE_X ? 83.f : 49.f) // Tabbar高度.    49 + 34 = 83    49+0 = 49
+#define MnavcBarH  (isIPHONE_X ? 88.f : 64.f) //导航高度         44+44=88   44+20=64
+#define MhomeBarH  (isIPHONE_X ? 34.f : 0.f)  //iphoneX时 home高度
+
+
+#endif /* __OBJC__ */
+#endif /* PrefixHeader_pch */
+
